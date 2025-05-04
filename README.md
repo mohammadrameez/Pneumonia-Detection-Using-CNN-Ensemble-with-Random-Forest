@@ -3,6 +3,7 @@ This repository contains a project that demonstrates pneumonia detection using C
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Published Research](#published-research)
 - [Dataset](#dataset)
 - [Data Exploration and Preprocessing](#data-exploration-and-preprocessing)
 - [Model Architecture](#model-architecture)
@@ -14,6 +15,17 @@ This repository contains a project that demonstrates pneumonia detection using C
 
 ## Project Overview
 This project is designed to detect pneumonia from chest X-ray images by leveraging both custom CNN models and pretrained models (VGG16, ResNet101, and Xception) to extract meaningful features. These features are then combined using a Random Forest ensemble to enhance accuracy and robustness. The model incorporates image preprocessing techniques such as data augmentation and normalization. The system’s performance was evaluated using key metrics such as accuracy, confusion matrix, and classification report, demonstrating excellent results. This project showcases the practical use of machine learning and ensemble techniques to create an automated diagnostic tool for reliable medical diagnosis.
+
+## Published Research
+
+📄 This project is also published as a peer-reviewed research paper:
+
+**"Pneumonia Detection Using Machine Learning and Deep Learning Techniques"**  
+Published in: *8th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud), 2024*  
+🔗 [View on IEEE Xplore](https://ieeexplore.ieee.org/document/10714803)
+
+The paper provides an in-depth explanation of the methodology, experiments, and results, highlighting the effectiveness of combining CNNs with ensemble learning for pneumonia detection.
+
 
 ## Dataset
 The project utilizes the **Chest X-Ray Dataset**, which was collaboratively developed by researchers from Qatar University, the University of Dhaka, and their collaborators. This dataset contains labeled chest X-ray images categorized into three classes:
